@@ -16,7 +16,6 @@ class SkipBotton extends StatelessWidget {
       right: 0,
       top: 45,
       child: GestureDetector(
-        onTap: () {},
         child: Text(
           StringsManger.skip,
           style: TextStyle(

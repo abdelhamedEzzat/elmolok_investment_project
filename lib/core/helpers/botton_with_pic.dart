@@ -31,21 +31,29 @@ class PictureBottonClick extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
-                text,
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 14.w,
-                    fontWeight: FontWeight.bold),
-                textAlign: TextAlign.center,
+              Expanded(
+                flex: 3,
+                child: Text(
+                  text,
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 14.w,
+                      fontWeight: FontWeight.bold),
+                  textAlign: TextAlign.center,
+                ),
               ),
               SizedBox(
                 width: 10.w,
               ),
-              Image.asset(
-                iconImage,
-                height: 30.h,
-              ),
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsets.only(right: 25.w),
+                  child: Image.asset(
+                    iconImage,
+                    height: 30.h,
+                  ),
+                ),
+              )
             ],
           ),
         ));

@@ -31,7 +31,7 @@ class IntroButton extends StatelessWidget {
               // Move to the next page
 
               _pageController.nextPage(
-                duration: const Duration(milliseconds: 300),
+                duration: const Duration(milliseconds: 400),
                 curve: Curves.easeInOut,
               );
             }

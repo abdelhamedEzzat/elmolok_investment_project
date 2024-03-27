@@ -73,7 +73,7 @@ class SignUpBody extends StatelessWidget {
         //
         Text(
           StringsManger.or,
-          style: TextStyle(fontSize: 20.sp),
+          style: TextStyle(fontSize: 24.sp),
         ),
         SizedBox(
           height: 10.h,

@@ -22,4 +22,16 @@ class StringsManger {
 
   static const String getStart = "البدء";
   static const String skip = "تخطي";
+
+  static const String signUp = "انشاء حساب";
+  static const String emailAddress = "البريد الإلكتروني";
+  static const String password = "كلمة المرور";
+  static const String aleardyHaveAccount = " اذا كان لديك حساب بالفعل ؟";
+  static const String signIn = "تسجيل الدخول";
+  static const String forgotPassword = "نسيت كلمة المرور ؟";
+  static const String loginWithGoogle = "تسجيل الدخول بواسطة جوجل";
+  static const String loginWithApple = "تسجيل الدخول بواسطة ابل";
+  static const String or = "او";
+  static const String continueWithGoogle = " انشاء الحساب بواسطة جوجل";
+  static const String continueWithApple = " انشاء الحساب بواسطه ابل";
 }

@@ -1,3 +1,4 @@
+import 'package:elmolak_investment_app/core/constans/strings/routes_string.dart';
 import 'package:elmolak_investment_app/features/splash_screen/widgets/logo_with_animaton.dart';
 import 'package:elmolak_investment_app/features/splash_screen/widgets/static_logo.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +32,8 @@ class _SplashScreenState extends State<SplashScreen>
     // Navigate to home screen after animation completes
     _animationController.addStatusListener((status) {
       if (status == AnimationStatus.completed) {
-        Navigator.pushReplacementNamed(context, '/FirstIntroScreen');
+        Navigator.pushReplacementNamed(
+            context, ConstantsRouteString.firstIntroScreen);
       }
     });
   }

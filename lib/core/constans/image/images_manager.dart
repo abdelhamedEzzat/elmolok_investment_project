@@ -5,4 +5,9 @@ class ImagesManager {
       "https://lottie.host/008f427a-5a82-4152-b125-a74fb0a6004b/lYAbIL1Fxu.json";
   static const String thirdIntroImage =
       "https://lottie.host/1c1e1403-f617-4f97-88a7-5d3bd8ed4c68/1IZ2gbjzD6.json";
+
+  static const String appLogo = "assets/logoAlmolak.png";
+
+  static const String appleLogo = "assets/mac-cosmetic-png-logo-6112.png";
+  static const String googleLogo = "assets/google-logo-9825.png";
 }

@@ -10,19 +10,25 @@ class SkipBotton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(
-      bottom: 0,
-      left: 35,
-      right: 0,
-      top: 45,
-      child: GestureDetector(
-        child: Text(
-          StringsManger.skip,
-          style: TextStyle(
-            color: ColorManger.skipbuttonColor,
-            fontSize: 14.w,
-            fontWeight: FontWeight.bold,
-          ),
+    return GestureDetector(
+      child: SafeArea(
+        child: Column(
+          children: [
+            GestureDetector(
+              child: Container(
+                margin: EdgeInsets.only(left: 30.w, top: 10),
+                child: Text(
+                  StringsManger.skip,
+                  style: TextStyle(
+                    color: ColorManger.skipbuttonColor,
+                    fontSize: 14.w,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ),
+          ],
+          //  ),
         ),
       ),
     );

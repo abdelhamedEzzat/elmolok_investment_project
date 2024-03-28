@@ -21,7 +21,7 @@ class IntroButton extends StatelessWidget {
     return Positioned(
       right: 0,
       left: 0,
-      bottom: 25.h,
+      bottom: 28.h,
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 20.w),
         child: GestureDetector(

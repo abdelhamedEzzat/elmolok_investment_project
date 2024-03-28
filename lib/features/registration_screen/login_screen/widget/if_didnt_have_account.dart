@@ -4,8 +4,8 @@ import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class IfYouHaveAccount extends StatelessWidget {
-  const IfYouHaveAccount({
+class IfdidntHaveAccount extends StatelessWidget {
+  const IfdidntHaveAccount({
     super.key,
   });
 
@@ -22,7 +22,7 @@ class IfYouHaveAccount extends StatelessWidget {
               Navigator.pushNamed(context, ConstantsRouteString.loginScreen);
             },
             child: Text(
-              StringsManger.signIn,
+              StringsManger.signUp,
               style: TextStyle(
                   color: ColorManger.buttonColor,
                   fontSize: 14.w,
@@ -30,7 +30,7 @@ class IfYouHaveAccount extends StatelessWidget {
             ),
           ),
           Text(
-            StringsManger.aleardyHaveAccount,
+            StringsManger.didntHaveAccount,
             style: TextStyle(
                 color: Colors.black,
                 fontSize: 14.w,

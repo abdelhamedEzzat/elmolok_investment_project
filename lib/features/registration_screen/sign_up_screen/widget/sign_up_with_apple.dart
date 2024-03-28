@@ -16,7 +16,7 @@ class SignInWithApple extends StatelessWidget {
       onTap: () {},
       width: MediaQuery.of(context).size.width,
       alignment: Alignment.center,
-      text: StringsManger.continueWithApple,
+      text: StringsManger.loginWithApple,
     );
   }
 }

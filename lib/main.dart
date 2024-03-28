@@ -1,4 +1,5 @@
 import 'package:device_preview/device_preview.dart';
+import 'package:elmolak_investment_app/core/constans/strings/routes_string.dart';
 import 'package:elmolak_investment_app/features/intro_screens/intro_screens.dart';
 import 'package:elmolak_investment_app/features/registration_screen/login_screen/login_screen.dart';
 import 'package:elmolak_investment_app/features/registration_screen/sign_up_screen/signup_screen.dart';
@@ -28,9 +29,11 @@ class MyApp extends StatelessWidget {
           home: const SplashScreen(),
           // Define your home screen route here
           routes: {
-            '/FirstIntroScreen': (context) => const FirstIntroScreen(),
-            '/SignUpScreen': (context) => const SignUpScreen(),
-            '/LoginScreen': (context) => const LoginScreen(),
+            ConstantsRouteString.firstIntroScreen: (context) =>
+                const FirstIntroScreen(),
+            ConstantsRouteString.signupScreen: (context) =>
+                const SignUpScreen(),
+            ConstantsRouteString.loginScreen: (context) => const LoginScreen(),
           },
         );
       },

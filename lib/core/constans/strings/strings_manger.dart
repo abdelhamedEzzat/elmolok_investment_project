@@ -34,4 +34,6 @@ class StringsManger {
   static const String or = "او";
   static const String continueWithGoogle = " انشاء الحساب بواسطة جوجل";
   static const String continueWithApple = " انشاء الحساب بواسطه ابل";
+  static const String didntHaveAccount = "اذا كنت لا تمتلك حساب بالفعل ؟";
+  static const String login = "تسجيل الدخول";
 }

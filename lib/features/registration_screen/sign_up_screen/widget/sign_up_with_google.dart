@@ -15,7 +15,7 @@ class SignInWithGoogle extends StatelessWidget {
       onTap: () {},
       width: MediaQuery.of(context).size.width,
       alignment: Alignment.center,
-      text: StringsManger.continueWithGoogle,
+      text: StringsManger.loginWithGoogle,
       color: Colors.white,
       iconImage: ImagesManager.googleLogo,
     );

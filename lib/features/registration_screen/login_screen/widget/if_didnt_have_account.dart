@@ -1,5 +1,4 @@
 import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
-import 'package:elmolak_investment_app/core/constans/strings/routes_string.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

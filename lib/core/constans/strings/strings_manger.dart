@@ -36,4 +36,5 @@ class StringsManger {
   static const String continueWithApple = " انشاء الحساب بواسطه ابل";
   static const String didntHaveAccount = "اذا كنت لا تمتلك حساب بالفعل ؟";
   static const String login = "تسجيل الدخول";
+  static const String forgetPassword = "نسيت كلمة المرور ؟";
 }

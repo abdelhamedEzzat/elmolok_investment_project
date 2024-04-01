@@ -1,6 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:elmolak_investment_app/core/constans/strings/routes_string.dart';
 import 'package:elmolak_investment_app/features/intro_screens/intro_screens.dart';
+import 'package:elmolak_investment_app/features/user_information/city_details_screen/city_details_screen.dart';
 import 'package:elmolak_investment_app/features/user_information/country_details/country_details_screen.dart';
 import 'package:elmolak_investment_app/features/user_information/personal_details/personal_details_screen.dart';
 import 'package:elmolak_investment_app/features/registration_screen/login_screen/login_screen.dart';
@@ -39,6 +40,8 @@ class MyApp extends StatelessWidget {
                 const PersonalDetailsScreen(),
             ConstantsRouteString.countryDetailsScreen: (context) =>
                 const CountryDetailsScreen(),
+            ConstantsRouteString.cityDetailsScreen: (context) =>
+                const CityDetailsScreen(),
           },
         );
       },

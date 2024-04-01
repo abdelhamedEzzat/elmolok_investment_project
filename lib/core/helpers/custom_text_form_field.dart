@@ -11,6 +11,7 @@ class CustomTextFormField extends StatelessWidget {
     this.borderRadius,
     this.suffixIcon,
     this.normalBorderColor,
+    this.prefixIcon,
   });
 
   final String hintText;
@@ -19,6 +20,7 @@ class CustomTextFormField extends StatelessWidget {
   final BorderRadius? borderRadius;
   final Widget? suffixIcon;
   final Color? normalBorderColor;
+  final Widget? prefixIcon;
 
   @override
   Widget build(BuildContext context) {
@@ -28,6 +30,7 @@ class CustomTextFormField extends StatelessWidget {
       child: TextFormField(
         textAlign: TextAlign.right,
         decoration: InputDecoration(
+          prefixIcon: prefixIcon,
           enabledBorder: OutlineInputBorder(
               borderRadius: const BorderRadius.all(Radius.circular(7.0)),
               borderSide: BorderSide(

@@ -4,4 +4,5 @@ class ConstantsRouteString {
   static const String loginScreen = "/LoginScreen";
   static const String personalDetailsScreen = "/PersonalDetailsScreen";
   static const String countryDetailsScreen = "/CountryDetailsScreen";
+  static const String cityDetailsScreen = "/CityDetailsScreen";
 }

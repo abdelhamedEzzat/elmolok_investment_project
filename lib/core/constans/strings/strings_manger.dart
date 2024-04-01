@@ -47,4 +47,13 @@ class StringsManger {
   static const String phoneNumber = "رقم الهاتف";
   static const String agreeForUserServies = " حسنا قرأتها واوفق عليها";
   static const String userServies = " شروط الخدمة";
+  static const String selectYourCountry = "اختر بلدك";
+  static const String beforWeStart = "قبل أن نبدأ، نود أن نتعرف عليك بشكل أفضل";
+  static const String whereAreyouForm = "لنبدأ من أين أنت؟";
+  static const String welecome = "مرحبا بك";
+
+  static const String awesome = "رائع نحن نحب";
+  static const String cityAndAdressLocation = "اين تعيش بالتحديد؟";
+  static const String pleaseEnterYourAdress = "من فضلك ادخل عنوانك";
+  static const String pleaseEnterYourCity = "من فضلك ادخل مدينتك";
 }

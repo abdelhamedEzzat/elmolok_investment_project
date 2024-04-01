@@ -2,13 +2,13 @@ import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
 import 'package:elmolak_investment_app/core/constans/strings/routes_string.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/core/helpers/botton.dart';
-import 'package:elmolak_investment_app/features/user_information/city_details_screen/widget/take_city_information.dart';
 import 'package:elmolak_investment_app/features/user_information/personal_details/slider_widget.dart';
+import 'package:elmolak_investment_app/features/user_information/verify_email/widget/accepted_verify_email.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class CityDetailsScreen extends StatelessWidget {
-  const CityDetailsScreen({super.key});
+class VerifyEmail extends StatelessWidget {
+  const VerifyEmail({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +30,7 @@ class CityDetailsScreen extends StatelessWidget {
               const SlidersWidget(
                 color1: ColorManger.buttonColor,
                 color2: ColorManger.buttonColor,
+                color3: ColorManger.buttonColor,
               ),
               //
               SizedBox(
@@ -40,7 +41,7 @@ class CityDetailsScreen extends StatelessWidget {
               // TakePersonalDetailsScreen
               //
               const Expanded(
-                  child: SingleChildScrollView(child: TakeCityDetailsScreen())),
+                  child: SingleChildScrollView(child: AcceptedVerifyEmail())),
               //
 
               //
@@ -54,7 +55,7 @@ class CityDetailsScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(5.w),
                   onTap: () {
                     Navigator.of(context)
-                        .pushNamed(ConstantsRouteString.vierfyEmail);
+                        .pushNamed(ConstantsRouteString.termsAndConditions);
                   },
                   text: StringsManger.next,
                   alignment: Alignment.center,

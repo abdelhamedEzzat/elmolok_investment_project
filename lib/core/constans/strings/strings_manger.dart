@@ -56,4 +56,14 @@ class StringsManger {
   static const String cityAndAdressLocation = "اين تعيش بالتحديد؟";
   static const String pleaseEnterYourAdress = "من فضلك ادخل عنوانك";
   static const String pleaseEnterYourCity = "من فضلك ادخل مدينتك";
+  static const String sendVerifyMassage =
+      "لقد قمنا بأرسال رسالة التحقق على حسابك";
+  static const String pleaseVerifyYourAccount =
+      "من فضلك قم بالتحقق من البريد الالكتروني";
+  static const String verifyEmailAndPressNext =
+      "وقم بتاكيد الايميل ثم اضغط التالي ";
+  static const String ifVerifyMassageNotSend =
+      "اذا لم يتم ارسال الرساله الي الان يرجي الضغط علي ";
+  static const String resendVerifyMassage =
+      " اعاده ارسال رساله التحقق الي ايميلي";
 }

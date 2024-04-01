@@ -5,8 +5,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class MainIconInDetailsScreen extends StatelessWidget {
   const MainIconInDetailsScreen({
     super.key,
+    required this.icon,
   });
-
+  final IconData icon;
   @override
   Widget build(BuildContext context) {
     return Expanded(
@@ -15,7 +16,7 @@ class MainIconInDetailsScreen extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.only(top: 30.h, right: 30.w),
           child: Icon(
-            Icons.email,
+            icon,
             color: ColorManger.buttonColor,
             size: 60.h,
           ),

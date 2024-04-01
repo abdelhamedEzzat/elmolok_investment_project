@@ -19,7 +19,9 @@ class AcceptedVerifyEmail extends StatelessWidget {
               alignment: Alignment.centerLeft,
               child: const BackButton(),
             ),
-            const MainIconInDetailsScreen(),
+            const MainIconInDetailsScreen(
+              icon: Icons.email,
+            ),
           ],
         ),
         const SizedBox(

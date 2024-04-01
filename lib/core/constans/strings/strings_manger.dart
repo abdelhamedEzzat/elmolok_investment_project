@@ -66,4 +66,9 @@ class StringsManger {
       "اذا لم يتم ارسال الرساله الي الان يرجي الضغط علي ";
   static const String resendVerifyMassage =
       " اعاده ارسال رساله التحقق الي ايميلي";
+  static const String our = "جميع";
+  static const String termsAndConditions = " الشروط والأحكام لدينا ";
+  static const String readTermsandConditions = " قرأت    ";
+  static const String acceptedTermsandConditions =
+      "  واوافق علي جميع الشروط والأحكام ";
 }

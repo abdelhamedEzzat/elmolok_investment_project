@@ -1,5 +1,4 @@
 import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
-import 'package:elmolak_investment_app/core/constans/strings/routes_string.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/core/helpers/botton.dart';
 import 'package:elmolak_investment_app/features/home/home_Screen.dart';
@@ -73,7 +72,7 @@ class _TermsAndConditionsState extends State<TermsAndConditions> {
                   borderRadius: BorderRadius.circular(5.w),
                   onTap: () {
                     Navigator.push(
-                        context, CustomPageRoute(child: HomeScreen()));
+                        context, CustomPageRoute(child: const HomeScreen()));
                   },
                   text: StringsManger.next,
                   alignment: Alignment.center,

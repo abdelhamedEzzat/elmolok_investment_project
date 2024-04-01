@@ -37,4 +37,14 @@ class StringsManger {
   static const String didntHaveAccount = "اذا كنت لا تمتلك حساب بالفعل ؟";
   static const String login = "تسجيل الدخول";
   static const String forgetPassword = "نسيت كلمة المرور ؟";
+  static const String startInvestingToday = "ابدأ الاستثمار اليوم";
+  static const String fewMinutesToInvesting =
+      "خلال دقائق , يمكنك البدء في تنمية ثروتك";
+  static const String firstName = "الاسم الاول";
+  static const String lastName = "الاسم الاخير";
+  static const String birthdate = "تاريخ الميلاد";
+
+  static const String phoneNumber = "رقم الهاتف";
+  static const String agreeForUserServies = " حسنا قرأتها واوفق عليها";
+  static const String userServies = " شروط الخدمة";
 }

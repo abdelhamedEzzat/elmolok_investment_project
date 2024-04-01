@@ -46,13 +46,19 @@ class LoginBody extends StatelessWidget {
         SizedBox(
           height: 25.h,
         ),
-        const CustomTextFormField(
+        CustomTextFormField(
+          borderRadius: const BorderRadius.all(Radius.circular(4.0)),
+          height: 52.h,
+          padding: EdgeInsets.only(left: 25.w, right: 25.w),
           hintText: StringsManger.emailAddress,
         ),
         SizedBox(
           height: 10.h,
         ),
-        const CustomTextFormField(
+        CustomTextFormField(
+          borderRadius: const BorderRadius.all(Radius.circular(4.0)),
+          height: 52.h,
+          padding: EdgeInsets.only(left: 25.w, right: 25.w),
           hintText: StringsManger.password,
         ),
         SizedBox(

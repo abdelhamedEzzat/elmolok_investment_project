@@ -98,6 +98,6 @@ class CustomPageRoute extends PageRouteBuilder {
 
   @override
   Widget buildTransitions(BuildContext context, Animation<double> animation,
-          Animation<double> secondryAndimation, Widget child) =>
+          Animation<double> secondaryAnimation, Widget child) =>
       ScaleTransition(scale: animation, child: child);
 }

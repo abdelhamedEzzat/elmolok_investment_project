@@ -71,4 +71,15 @@ class StringsManger {
   static const String readTermsandConditions = " قرأت    ";
   static const String acceptedTermsandConditions =
       "  واوافق علي جميع الشروط والأحكام ";
+  static const String hello = "مرحبا بك";
+  static const String nameOfUser = "ابراهيم";
+  static const String sortBy = "تصنيف حسب";
+  static const String live = "مباشرة";
+  static const String exited = "خرجت";
+  static const String funded = "ممولة";
+
+  static const String mainScreen = " الرئيسيه";
+  static const String dashboard = " لوحه التحكم";
+  static const String profile = "معلوماتي";
+  static const String customerServies = "الدعم";
 }

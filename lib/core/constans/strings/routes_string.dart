@@ -7,4 +7,8 @@ class ConstantsRouteString {
   static const String cityDetailsScreen = "/CityDetailsScreen";
   static const String vierfyEmail = "/VierfyEmail";
   static const String termsAndConditions = "/TermsAndConditions";
+
+  static const String dashBoardScreen = "/DashBoardScreen";
+  static const String personalProfileScreen = "/PersonalProfileScreen";
+  static const String userChat = "/UserChat";
 }

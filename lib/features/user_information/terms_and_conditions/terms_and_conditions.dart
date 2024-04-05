@@ -1,7 +1,7 @@
 import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/core/helpers/botton.dart';
-import 'package:elmolak_investment_app/features/home/home_Screen.dart';
+import 'package:elmolak_investment_app/features/home/home_screen.dart';
 import 'package:elmolak_investment_app/features/user_information/personal_details/slider_widget.dart';
 import 'package:elmolak_investment_app/features/user_information/terms_and_conditions/widgets/terms_and_condition_widget.dart';
 import 'package:flutter/material.dart';
@@ -71,8 +71,11 @@ class _TermsAndConditionsState extends State<TermsAndConditions> {
                   colorBotton: ColorManger.buttonColor.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(5.w),
                   onTap: () {
-                    Navigator.push(
-                        context, CustomPageRoute(child: const HomeScreen()));
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      CustomPageRoute(child: const HomeScreen()),
+                      (route) => false,
+                    );
                   },
                   text: StringsManger.next,
                   alignment: Alignment.center,
@@ -92,7 +95,7 @@ class CustomPageRoute extends PageRouteBuilder {
   CustomPageRoute({
     required this.child,
   }) : super(
-          transitionDuration: const Duration(seconds: 1),
+          transitionDuration: const Duration(seconds: 2),
           pageBuilder: (context, animation, secondryAndimation) => child,
         );
 

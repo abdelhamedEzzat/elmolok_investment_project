@@ -82,4 +82,26 @@ class StringsManger {
   static const String dashboard = " لوحه التحكم";
   static const String profile = "معلوماتي";
   static const String customerServies = "الدعم";
+  static const String annualRentalyield = "عائد الإيجار السنوي";
+  static const String netRentalyield = "صافي عائد الإيجار";
+
+  static const String annualizedReturn = "العائد السنوي";
+  static const String totalExpectedRetutn = "إجمالي العائد المتوقع";
+  static const String fundedChart = "التمويل";
+  static const String unitPrice = "سعر الوحدة";
+
+  static const String propertyPurcgasePrice = " سعر شراء العقارات";
+  static const String investmentHoldingPeriod = "فترة عقد الاستثمار";
+  static const String totalRentalIncome = "إجمالي إيرادات الإيجار";
+  static const String exitPrice = "سعر الخروج";
+  static const String totalROL = "إجمالي العائد على الاستثمار";
+
+  static const String expectedGrossYield = " العائد الإجمالي المتوقع";
+  static const String expectedRentalYield = " العائد الإيجاري المتوقع";
+  static const String expctedReturn = " العائد المتوقع";
+  static const String purechaseDate = " تاريخ الشراء ";
+  static const String propretyPurechasePrice = " سعر شراء الملكية";
+  static const String currentMarketValue = " القيمة السوقية الحالية";
+  static const String rentalIncomePaidtodate =
+      "إيرادات الإيجار المدفوعة حتى الآن";
 }

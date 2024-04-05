@@ -1,3 +1,4 @@
+import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/core/helpers/custom_app_bar.dart';
 import 'package:elmolak_investment_app/core/helpers/custom_drawer.dart';
 import 'package:flutter/material.dart';
@@ -10,7 +11,7 @@ class DashBoardScreen extends StatelessWidget {
     return const Scaffold(
       drawer: CustomDrawer(),
       appBar: CustomAppBar(
-        title: Text("لوحه التحكم"),
+        title: Text(StringsManger.dashboard),
       ),
       body: Center(
         child: Text("DashBoard screen"),
@@ -18,3 +19,4 @@ class DashBoardScreen extends StatelessWidget {
     );
   }
 }
+// dashboard_screen

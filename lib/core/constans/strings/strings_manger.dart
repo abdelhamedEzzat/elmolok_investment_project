@@ -81,6 +81,7 @@ class StringsManger {
   static const String mainScreen = " الرئيسيه";
   static const String dashboard = " لوحه التحكم";
   static const String profile = "معلوماتي";
+  static const String personalprofile = "الملف الشخصي";
   static const String customerServies = "الدعم";
   static const String annualRentalyield = "عائد الإيجار السنوي";
   static const String netRentalyield = "صافي عائد الإيجار";

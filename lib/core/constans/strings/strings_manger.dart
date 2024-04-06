@@ -105,4 +105,28 @@ class StringsManger {
   static const String currentMarketValue = " القيمة السوقية الحالية";
   static const String rentalIncomePaidtodate =
       "إيرادات الإيجار المدفوعة حتى الآن";
+  static const String totalPortfolioValue = "إجمالي قيمة المحفظة";
+
+  static const String thereAreNoRecoredsToShow = " لا يوجد سجلات لعرضها";
+
+  static const String totalRentalToDate = " إجمالي الإيجار حتى الآن";
+  static const String currentMonthRentalRecived =
+      " تم استلام إيجار الشهر الحالي";
+  static const String activeInvestment = " الاستثمارات النشطة";
+
+  static const String financialTransactions = "المعاملات المالية";
+
+  static const String financialNumber = "الرقم ";
+  static const String financialDate = "التاريخ ";
+  static const String financialAmount = " الكميه";
+  static const String transactionsStuts = "الحاله ";
+
+  static const String propertyUpdates = "تحديثات الملكية ";
+  static const String rentalReceived = "تلقى الإيجار ";
+  static const String rentalStatment = "بيان الإيجار ";
+  static const String noRentInSelectDateRange =
+      " لا يوجد إيجار في نطاق زمني محدد";
+  static const String yourAnnualInvestmentlimit =
+      "حد الاستثمار السنوي الخاص بك";
+  static const String investmentModeYTD = "وضع الاستثمار منذ بداية العام";
 }

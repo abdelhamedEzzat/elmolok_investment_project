@@ -12,4 +12,5 @@ class ConstantsRouteString {
   static const String personalProfileScreen = "/PersonalProfileScreen";
   static const String userChat = "/UserChat";
   static const String viewAvaliableInvestment = "/ViewAvaliableInvestment";
+  static const String investmentDetailsScreen = "/InvestmentDetailsScreen";
 }

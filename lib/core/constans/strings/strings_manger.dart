@@ -142,4 +142,17 @@ class StringsManger {
 
   static const String solidDate = "التاريخ ";
   static const String propertySolidPrice = "سعر الخدمه ";
+  static const String enableNotification = " تفعيل الاشعارات";
+  static const String logOut = " تسجيل الخروج ";
+  static const String delteProfile = " حذف الحساب ";
+
+  static const String yourCurrentAddress = "العنوان الحالي";
+  static const String city = " المدينة";
+  static const String country = "الدولة  ";
+  static const String pstalCode = "رقم البريد";
+
+  static const String employmentInformation = "معلومات التوظيف";
+  static const String whatsYourCurrentOccupation = " ما هي مهنتك الحالية";
+  static const String howLongHaveYoubeenWorkhere = "منذ متى وأنت تعمل هنا ";
+  static const String whatIndustryDoYouWorkIn = "أي صناعة تعمل بها ";
 }

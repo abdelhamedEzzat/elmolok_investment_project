@@ -3,16 +3,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomTextFormField extends StatelessWidget {
-  const CustomTextFormField({
-    super.key,
-    required this.hintText,
-    this.padding,
-    this.height,
-    this.borderRadius,
-    this.suffixIcon,
-    this.normalBorderColor,
-    this.prefixIcon,
-  });
+  const CustomTextFormField(
+      {super.key,
+      required this.hintText,
+      this.padding,
+      this.height,
+      this.borderRadius,
+      this.suffixIcon,
+      this.normalBorderColor,
+      this.prefixIcon,
+      this.enabled,
+      this.border,
+      this.labelText,
+      this.hintColor});
 
   final String hintText;
   final EdgeInsetsGeometry? padding;
@@ -21,6 +24,10 @@ class CustomTextFormField extends StatelessWidget {
   final Widget? suffixIcon;
   final Color? normalBorderColor;
   final Widget? prefixIcon;
+  final bool? enabled;
+  final InputBorder? border;
+  final Widget? labelText;
+  final Color? hintColor;
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +37,10 @@ class CustomTextFormField extends StatelessWidget {
       child: TextFormField(
         textAlign: TextAlign.right,
         decoration: InputDecoration(
+          enabled: enabled ?? true,
+          //   labelText: labelText,
+
+          label: labelText,
           prefixIcon: prefixIcon,
           enabledBorder: OutlineInputBorder(
               borderRadius: const BorderRadius.all(Radius.circular(7.0)),
@@ -45,15 +56,14 @@ class CustomTextFormField extends StatelessWidget {
           ),
           alignLabelWithHint: true,
           hintText: hintText,
-          hintStyle: TextStyle(
-            fontSize: 12.w,
-          ),
-          border: OutlineInputBorder(
-            borderRadius: borderRadius ??
-                const BorderRadius.all(
-                  Radius.circular(7.0),
-                ),
-          ),
+          hintStyle: TextStyle(fontSize: 12.w, color: hintColor ?? Colors.grey),
+          border: border ??
+              OutlineInputBorder(
+                borderRadius: borderRadius ??
+                    const BorderRadius.all(
+                      Radius.circular(7.0),
+                    ),
+              ),
         ),
       ),
     );

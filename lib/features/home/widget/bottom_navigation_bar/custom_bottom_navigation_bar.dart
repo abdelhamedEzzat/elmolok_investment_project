@@ -1,24 +1,21 @@
 import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
-import 'package:elmolak_investment_app/features/chat/user_chat.dart';
-import 'package:elmolak_investment_app/features/dash_board/dashboard_screen.dart';
-import 'package:elmolak_investment_app/features/home/home_screen.dart';
-import 'package:elmolak_investment_app/features/personal_Profile/personal_profile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
 class CustomBottomNavigationBar extends StatefulWidget {
   const CustomBottomNavigationBar({
-    Key? key,
+    super.key,
     required this.currentIndex,
     required this.onTap,
-  }) : super(key: key);
+  });
 
   final int currentIndex;
   final ValueChanged<int> onTap;
 
   @override
+  // ignore: library_private_types_in_public_api
   _CustomBottomNavigationBarState createState() =>
       _CustomBottomNavigationBarState();
 }

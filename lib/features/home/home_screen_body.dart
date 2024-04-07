@@ -18,6 +18,7 @@ class _HomeScreenBodyState extends State<HomeScreenBody>
     with TickerProviderStateMixin {
   bool isLoading = true;
   late TabController _tabController;
+  @override
   void initState() {
     super.initState();
     _tabController = TabController(length: 3, vsync: this);

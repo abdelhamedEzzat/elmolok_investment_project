@@ -129,4 +129,17 @@ class StringsManger {
   static const String yourAnnualInvestmentlimit =
       "حد الاستثمار السنوي الخاص بك";
   static const String investmentModeYTD = "وضع الاستثمار منذ بداية العام";
+  static const String primary = "أساسي";
+
+  static const String solid = "النفقات";
+  static const String propretyPrice = "سعر الوحده";
+  static const String proprety = "الوحده";
+  static const String availableInvestments = "استثماراتك المتاحة";
+
+  static const String inProgress = "في تَقَدم";
+  static const String ammountInvested = "المبلغ المستثمر";
+  static const String propertyPrice = "أسعار العقارات";
+
+  static const String solidDate = "التاريخ ";
+  static const String propertySolidPrice = "سعر الخدمه ";
 }

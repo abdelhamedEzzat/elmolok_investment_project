@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/features/home/widget/Image_for_investment_item.dart';

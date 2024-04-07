@@ -1,6 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:elmolak_investment_app/core/constans/strings/routes_string.dart';
 import 'package:elmolak_investment_app/features/chat/user_chat.dart';
+import 'package:elmolak_investment_app/features/dash_board/dash_board_avaliable_investment/view_avaliable_investment.dart';
 import 'package:elmolak_investment_app/features/dash_board/dashboard_screen.dart';
 import 'package:elmolak_investment_app/features/intro_screens/intro_screens.dart';
 import 'package:elmolak_investment_app/features/personal_Profile/personal_profile.dart';
@@ -55,6 +56,8 @@ class MyApp extends StatelessWidget {
             ConstantsRouteString.personalProfileScreen: (context) =>
                 const PersonalProfileScreen(),
             ConstantsRouteString.userChat: (context) => const UserChat(),
+            ConstantsRouteString.viewAvaliableInvestment: (context) =>
+                const ViewAvaliableInvestment(),
           },
         );
       },

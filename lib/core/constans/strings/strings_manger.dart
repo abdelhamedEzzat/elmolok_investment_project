@@ -155,4 +155,23 @@ class StringsManger {
   static const String whatsYourCurrentOccupation = " ما هي مهنتك الحالية";
   static const String howLongHaveYoubeenWorkhere = "منذ متى وأنت تعمل هنا ";
   static const String whatIndustryDoYouWorkIn = "أي صناعة تعمل بها ";
+  static const String propertyKeyInfo = "معلومات الوحدة";
+
+  static const String aboutThisProperty = "معلومات عن الوحده";
+  static const String whyYouShouldINVEST = "لماذا يجب عليك الاستثمار؟";
+
+  static const String investmentCalcolator = " حاسبة الاستثمار";
+  static const String howMuchCanYouEarnOnThisInvestment =
+      "  كم يمكنك الحصول عليه من الاستثمار ؟";
+  static const String expectedAnnualAppreciation = " الربح المتوقع";
+  static const String totalRetutnOnInvestment = " اجمالي الربح على الاستثمارات";
+  static const String averageAnnualizedReturn = " المتوسط السنوي للربح";
+  static const String expextedCapitalappreciation = " الربح المتوقع";
+  static const String netRentalIncome = " الربح الصافي للإيجار";
+  static const String totalExpectedValueAfter5years =
+      " القيمة المتوقعة بعد 5 سنوات";
+
+  static const String propertyLocation = " معلومات الموقع";
+
+  static const String investmentNow = " استثمر الآن";
 }

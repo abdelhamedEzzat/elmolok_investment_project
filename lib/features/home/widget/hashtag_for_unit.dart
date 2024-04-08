@@ -9,7 +9,7 @@ class HashTagForUnit extends StatelessWidget {
     List<String> asd = ["دبي", "سرير واحد", "منزل للاجازه"];
     return Container(
       alignment: Alignment.topRight,
-      height: 35.h,
+      height: 30.h,
       padding: const EdgeInsets.only(right: 10),
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
@@ -19,10 +19,8 @@ class HashTagForUnit extends StatelessWidget {
           return Container(
               height: 10,
               margin: const EdgeInsets.all(5),
-              padding: const EdgeInsets.only(
-                left: 10,
-                right: 10,
-              ),
+              padding:
+                  EdgeInsets.only(left: 10, right: 10, top: 1.h, bottom: 1),
               decoration: BoxDecoration(
                   border: Border.all(
                     color: Colors.grey.withOpacity(0.8),
@@ -36,14 +34,14 @@ class HashTagForUnit extends StatelessWidget {
                 children: [
                   Text(
                     asd[index],
-                    style: TextStyle(fontSize: 12.sp),
+                    style: TextStyle(fontSize: 10.sp),
                   ),
                   const SizedBox(
                     width: 5,
                   ),
                   Icon(
                     Icons.home,
-                    size: 15.sp,
+                    size: 13.sp,
                     color: Colors.grey.withOpacity(0.8),
                   ),
                 ],

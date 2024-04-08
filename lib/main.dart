@@ -4,6 +4,7 @@ import 'package:elmolak_investment_app/features/chat/user_chat.dart';
 import 'package:elmolak_investment_app/features/dash_board/dash_board_avaliable_investment/view_avaliable_investment.dart';
 import 'package:elmolak_investment_app/features/dash_board/dashboard_screen.dart';
 import 'package:elmolak_investment_app/features/intro_screens/intro_screens.dart';
+import 'package:elmolak_investment_app/features/lived_investment_details_screen/lived_investment_details_screen.dart';
 import 'package:elmolak_investment_app/features/personal_Profile/personal_profile.dart';
 import 'package:elmolak_investment_app/features/user_information/city_details_screen/city_details_screen.dart';
 import 'package:elmolak_investment_app/features/user_information/country_details/country_details_screen.dart';
@@ -58,6 +59,8 @@ class MyApp extends StatelessWidget {
             ConstantsRouteString.userChat: (context) => const UserChat(),
             ConstantsRouteString.viewAvaliableInvestment: (context) =>
                 const ViewAvaliableInvestment(),
+            ConstantsRouteString.livedInvestmentDetailsScreen: (context) =>
+                const LivedInvestmentDetailsScreen(),
           },
         );
       },

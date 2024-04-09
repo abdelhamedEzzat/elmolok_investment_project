@@ -1,4 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:elmolak_investment_app/core/constans/strings/routes_string.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/core/helpers/botton.dart';
 import 'package:elmolak_investment_app/features/home/widget/hashtag_for_unit.dart';
@@ -125,11 +126,14 @@ class _InvestmentDetailsScreenState
               child: Container(
                 margin: EdgeInsets.only(bottom: 10.h, right: 20.w, left: 20.w),
                 child: BottonClick(
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  borderRadius: const BorderRadius.all(Radius.circular(10)),
                   text: StringsManger.investmentNow,
                   alignment: Alignment.center,
                   width: MediaQuery.of(context).size.width,
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.of(context).pushReplacementNamed(
+                        ConstantsRouteString.firstSelectEmploymentScreens);
+                  },
                 ),
               )),
         ],

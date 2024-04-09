@@ -14,4 +14,12 @@ class ConstantsRouteString {
   static const String viewAvaliableInvestment = "/ViewAvaliableInvestment";
   static const String livedInvestmentDetailsScreen =
       "/LivedInvestmentDetailsScreen";
+  static const String firstSelectEmploymentScreens =
+      "/FirstSelectEmploymentScreens";
+  static const String secoundSelectEmploymentScreens =
+      "/SecoundSelectEmploymentScreens";
+  static const String thirdSelectEmploymentScreens =
+      "/ThirdSelectEmploymentScreens";
+  static const String uploadPassportPicScreen = "/UploadPassportPicScreen";
+  static const String uploadPersonalPicScreen = "/UploadPersonalPicScreen";
 }

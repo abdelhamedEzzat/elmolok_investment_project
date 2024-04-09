@@ -171,7 +171,52 @@ class StringsManger {
   static const String totalExpectedValueAfter5years =
       " القيمة المتوقعة بعد 5 سنوات";
 
+  static const String investmentNow = " استثمر الان";
   static const String propertyLocation = " معلومات الموقع";
 
-  static const String investmentNow = " استثمر الآن";
+  static const String goodluckapplyingforinvestmentwithus =
+      " اختيارك موفق في التقدم للاستثمار لدينا";
+
+  static const String youAreJust3Steps =
+      " أنت على بعد 3 خطوات فقط من الوصول الكامل إلى منصتنا! قبل أن تتمكن من الانضمام إلى مجتمعنا المتنامي من المستثمرين الأذكياء، نحتاج منك تقديم المزيد من المعلومات";
+
+  static const String iamEmployment = "انا موظف";
+  static const String iamSelfEmployed = "اعمل لحسابي ";
+  static const String iamRetired = "انا متقاعد";
+  static const String iamUnemployed = "أنا عاطل عن العمل";
+  static const String iamStudent = " انا طالب";
+
+  static const String youAreDoingGreatjustacouplemoresteps =
+      "أنت تقوم بعمل رائع، فقط بضع خطوات أخرى";
+  static const String toEnsureWeProvide =
+      "للتأكد من أننا نقدم لك الاستثمار الأنسب لك، يرجى تحديد شرائح الدخل الملغاة التي تمثلك حاليًا بشكل أفضل";
+
+  static const String pleaseSelectOne = "من فضلك اختر من القائمة";
+  static const String youAreDoingGreatjustOneMoreSteps =
+      "أنت تقوم بعمل رائع، فقط  خطوه واحده أخرى";
+  static const String pleaseSelectTheValueOfYourCurrentNetWorth =
+      "للتأكد من أننا نقدم لك الاستثمار الأنسب لك، يرجى تحديد قيمة صافي ثروتك الحالية";
+
+  static const String annualIncome = "الدخل السنوي";
+  static const String netWorth = "صافي القيمة ";
+  static const String readyToInvestAndAccsessOurReport =
+      "على استعداد للاستثمار والوصول إلى تقريرنا";
+
+  static const String pleaseUploadYourPassport =
+      "  يرجى تحميل جواز سفرك جاهزا. قم بتحميل نسخة ملونة أو استخدم هاتفك لالتقاط صورة للصفحة الرئيسية لجواز سفرك، سيُطلب منك التقاط صورة شخصية في الخطوة التالية";
+
+  static const String pleaseUploadPassportPic =
+      "من فضلك قم تحميل صورة جواز سفرك";
+
+  static const String uploadPassportPic = "تحميل صورة جواز سفرك";
+
+  static const String pleaseUploadYourPic =
+      "قم بتحميل صوره سليفي لك من كاميرا جوالك";
+  static const String requierdUploadYourPic =
+      " يجب رفع صوره لك من كاميرا جوالك تظهر فيها جميع تفاصيل وجهك وتكون في مكان ذات اضائه";
+
+  static const String pleaseUploadPersonalPic =
+      "من فضلك قم تحميل صورة شخصيه لك ";
+
+  static const String submit = "ارسال";
 }

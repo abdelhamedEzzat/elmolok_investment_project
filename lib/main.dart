@@ -6,6 +6,11 @@ import 'package:elmolak_investment_app/features/dash_board/dashboard_screen.dart
 import 'package:elmolak_investment_app/features/intro_screens/intro_screens.dart';
 import 'package:elmolak_investment_app/features/lived_investment_details_screen/lived_investment_details_screen.dart';
 import 'package:elmolak_investment_app/features/personal_Profile/personal_profile.dart';
+import 'package:elmolak_investment_app/features/personal_Profile/select_embloyment_info/first_select_embloyment_info.dart';
+import 'package:elmolak_investment_app/features/personal_Profile/select_embloyment_info/secound_select_embloyment.dart';
+import 'package:elmolak_investment_app/features/personal_Profile/select_embloyment_info/third_select_employment.dart';
+import 'package:elmolak_investment_app/features/personal_Profile/select_embloyment_info/upload_passport_pic_screen.dart';
+import 'package:elmolak_investment_app/features/personal_Profile/select_embloyment_info/upload_personal_pic.dart';
 import 'package:elmolak_investment_app/features/user_information/city_details_screen/city_details_screen.dart';
 import 'package:elmolak_investment_app/features/user_information/country_details/country_details_screen.dart';
 import 'package:elmolak_investment_app/features/user_information/personal_details/personal_details_screen.dart';
@@ -61,6 +66,16 @@ class MyApp extends StatelessWidget {
                 const ViewAvaliableInvestment(),
             ConstantsRouteString.livedInvestmentDetailsScreen: (context) =>
                 const LivedInvestmentDetailsScreen(),
+            ConstantsRouteString.firstSelectEmploymentScreens: (context) =>
+                const FirstSelectEmploymentScreens(),
+            ConstantsRouteString.secoundSelectEmploymentScreens: (context) =>
+                const SecoundSelectEmploymentScreens(),
+            ConstantsRouteString.thirdSelectEmploymentScreens: (context) =>
+                const ThirdSelectEmploymentScreens(),
+            ConstantsRouteString.uploadPassportPicScreen: (context) =>
+                const UploadPassportPicScreen(),
+            ConstantsRouteString.uploadPersonalPicScreen: (context) =>
+                const UploadPersonalPicScreen(),
           },
         );
       },

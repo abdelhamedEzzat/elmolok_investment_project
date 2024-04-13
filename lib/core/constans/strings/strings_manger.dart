@@ -219,4 +219,33 @@ class StringsManger {
       "من فضلك قم تحميل صورة شخصيه لك ";
 
   static const String submit = "ارسال";
+
+  static const String updates = "التحديثات";
+
+  static const String customerChat = "المحادثات";
+
+  static const String coustomerServicesInfo = "المعلومات الشخصيه";
+
+  static const String unitName = " : اسم الوحدة";
+  static const String updateType = " : نوع التحديث";
+  static const String updateTime = " : وقت وتاريخ التحديث";
+  static const String moreUpdateDetails = " : المزيد من التفاصيل";
+
+  static const String customerChats = "محادثات العملاء";
+
+  static const String adminChats = "محادثه المدير";
+
+  static const String customerServicesChats = "محادثه الدعم الفني";
+  static const String units = "الوحدات";
+  static const String users = "المستخدمين";
+
+  static const String createEmail = "انشاء ايميل ";
+  static const String createUnit = "انشاء وحده";
+  static const String investores = "المستثمرين";
+  static const String sentNotification = "ارسال الاشعارات";
+  static const String oprovedInformation = "التحقق من المعلومات";
+
+  static const String teamCustomerServies = "فريق الدعم الفني";
+
+  static const String createCustomerEmail = "انشاء ايميل للدعم الفني";
 }

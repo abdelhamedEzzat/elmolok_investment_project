@@ -1,4 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -46,7 +47,7 @@ class CustomTextFormField extends StatelessWidget {
               borderRadius: const BorderRadius.all(Radius.circular(7.0)),
               borderSide: BorderSide(
                   color: normalBorderColor ??
-                      const Color(0xFF000000).withOpacity(0.5))),
+                      ColorManger.buttonColor.withOpacity(0.3))),
           suffixIcon: suffixIcon,
           filled: true,
           fillColor: Colors.white,

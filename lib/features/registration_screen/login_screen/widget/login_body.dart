@@ -1,4 +1,5 @@
 import 'package:elmolak_investment_app/core/constans/image/images_manager.dart';
+import 'package:elmolak_investment_app/core/constans/strings/routes_string.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/core/helpers/custom_text_form_field.dart';
 import 'package:elmolak_investment_app/core/strings/strings.dart';
@@ -68,7 +69,12 @@ class LoginBody extends StatelessWidget {
         SizedBox(
           height: 10.h,
         ),
-        const LoginWithEmail(),
+        LoginWithEmail(
+          onTap: () {
+            Navigator.of(context)
+                .pushNamed(ConstantsRouteString.personalDetailsScreen);
+          },
+        ),
         SizedBox(
           height: 10.h,
         ),

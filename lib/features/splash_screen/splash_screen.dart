@@ -21,11 +21,11 @@ class _SplashScreenState extends State<SplashScreen>
     _animationController = AnimationController(
       vsync: this,
       duration: const Duration(
-          seconds: 15), // Adjust total animation duration as needed
+          seconds: 5), // Adjust total animation duration as needed
     );
 
     // Delay animation start after 6 seconds
-    Future.delayed(const Duration(seconds: 6), () {
+    Future.delayed(const Duration(seconds: 4), () {
       _animationController.forward();
     });
 

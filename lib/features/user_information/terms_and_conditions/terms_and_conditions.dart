@@ -2,7 +2,7 @@ import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/core/helpers/botton.dart';
 import 'package:elmolak_investment_app/features/home/home_screen.dart';
-import 'package:elmolak_investment_app/features/user_information/personal_details/slider_widget.dart';
+import 'package:elmolak_investment_app/core/helpers/slider_widget.dart';
 import 'package:elmolak_investment_app/features/user_information/terms_and_conditions/widgets/terms_and_condition_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

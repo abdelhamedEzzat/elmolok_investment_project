@@ -7,7 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 // ignore: camel_case_types
 class ChatCustomerServices extends StatelessWidget {
-  const ChatCustomerServices({Key? key}) : super(key: key);
+  const ChatCustomerServices({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -92,7 +92,7 @@ class AllCustomerChatsScreen extends StatelessWidget {
                       ),
                       Text(
                         chat.message,
-                        style: TextStyle(color: Colors.grey),
+                        style: const TextStyle(color: Colors.grey),
                       ),
                     ],
                   ),
@@ -165,7 +165,7 @@ class AdminChatScreen extends StatelessWidget {
 }
 
 class ChatBody extends StatelessWidget {
-  const ChatBody({Key? key}) : super(key: key);
+  const ChatBody({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -173,7 +173,7 @@ class ChatBody extends StatelessWidget {
       children: [
         Expanded(
           child: ListView(
-            children: [
+            children: const [
               MessageWidget(
                 isSentByUser: true,
                 message: 'Hello, how can I help you?',
@@ -186,7 +186,7 @@ class ChatBody extends StatelessWidget {
             ],
           ),
         ),
-        MessageInputField(),
+        const MessageInputField(),
       ],
     );
   }
@@ -199,8 +199,8 @@ class MessageWidget extends StatelessWidget {
   const MessageWidget({
     required this.isSentByUser,
     required this.message,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -225,7 +225,7 @@ class MessageWidget extends StatelessWidget {
 }
 
 class MessageInputField extends StatelessWidget {
-  const MessageInputField({Key? key}) : super(key: key);
+  const MessageInputField({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -244,7 +244,7 @@ class MessageInputField extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Expanded(
+          const Expanded(
             child: TextField(
               decoration: InputDecoration(
                 hintText: 'Type your message...',
@@ -321,7 +321,7 @@ class ChatWidget extends StatelessWidget {
 }
 
 class CustomerChatBody extends StatelessWidget {
-  const CustomerChatBody({Key? key}) : super(key: key);
+  const CustomerChatBody({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -339,7 +339,7 @@ class CustomerChatBody extends StatelessWidget {
         children: [
           Expanded(
             child: ListView(
-              children: [
+              children: const [
                 MessageWidget(
                   isSentByUser: true,
                   message: 'Hello, how can I help you?',
@@ -352,7 +352,7 @@ class CustomerChatBody extends StatelessWidget {
               ],
             ),
           ),
-          MessageInputField(),
+          const MessageInputField(),
         ],
       ),
     );
@@ -366,8 +366,8 @@ class CustomerMessageWidget extends StatelessWidget {
   const CustomerMessageWidget({
     required this.isSentByUser,
     required this.message,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -392,7 +392,7 @@ class CustomerMessageWidget extends StatelessWidget {
 }
 
 class CustomerMessageInputField extends StatelessWidget {
-  const CustomerMessageInputField({Key? key}) : super(key: key);
+  const CustomerMessageInputField({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -411,7 +411,7 @@ class CustomerMessageInputField extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Expanded(
+          const Expanded(
             child: TextField(
               decoration: InputDecoration(
                 hintText: 'Type your message...',

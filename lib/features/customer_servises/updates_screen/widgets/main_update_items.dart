@@ -11,12 +11,12 @@ class UpdateItem extends StatefulWidget {
 }
 
 class _UpdateItemState extends State<UpdateItem> {
-  bool _customTileExpanded = false;
+  final bool _customTileExpanded = false;
 
   // final String mainUpdateItems;
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
         width: MediaQuery.of(context).size.width,
         //height: 50.h,
         child: UpdateItemsWidget(

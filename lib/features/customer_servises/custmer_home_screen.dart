@@ -2,7 +2,7 @@ import 'package:elmolak_investment_app/features/customer_servises/chat_customer_
 import 'package:elmolak_investment_app/features/customer_servises/customer_protifolio/customer_protoflio_screen.dart';
 import 'package:elmolak_investment_app/features/customer_servises/updates_screen/updates_screen.dart';
 import 'package:elmolak_investment_app/features/customer_servises/widget/custom_customer_home_screen.dart';
-import 'package:elmolak_investment_app/features/home/home_screen_body.dart';
+import 'package:elmolak_investment_app/features/users/home/home_screen_body.dart';
 import 'package:flutter/material.dart';
 
 class CustomerServicesHomeScreen extends StatefulWidget {

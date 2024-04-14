@@ -3,10 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/core/helpers/custom_text_form_field.dart';
-import 'package:elmolak_investment_app/features/personal_Profile/widgets/personal_pic.dart';
-import 'package:elmolak_investment_app/features/personal_Profile/widgets/static_bottons_in_personal_protfolio_screen.dart';
-import 'package:elmolak_investment_app/features/personal_Profile/widgets/title_text.dart';
-import 'package:flutter/material.dart';
+import 'package:elmolak_investment_app/features/users/personal_Profile/widgets/personal_pic.dart';
+import 'package:elmolak_investment_app/features/users/personal_Profile/widgets/static_bottons_in_personal_protfolio_screen.dart';
+import 'package:elmolak_investment_app/features/users/personal_Profile/widgets/title_text.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 // ignore: camel_case_types

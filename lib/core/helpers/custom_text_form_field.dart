@@ -4,19 +4,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomTextFormField extends StatelessWidget {
-  const CustomTextFormField(
-      {super.key,
-      required this.hintText,
-      this.padding,
-      this.height,
-      this.borderRadius,
-      this.suffixIcon,
-      this.normalBorderColor,
-      this.prefixIcon,
-      this.enabled,
-      this.border,
-      this.labelText,
-      this.hintColor});
+  const CustomTextFormField({
+    super.key,
+    required this.hintText,
+    this.padding,
+    this.height,
+    this.borderRadius,
+    this.suffixIcon,
+    this.normalBorderColor,
+    this.prefixIcon,
+    this.enabled,
+    this.border,
+    this.labelText,
+    this.hintColor,
+    this.maxLines,
+    this.minLines,
+  });
 
   final String hintText;
   final EdgeInsetsGeometry? padding;
@@ -29,13 +32,16 @@ class CustomTextFormField extends StatelessWidget {
   final InputBorder? border;
   final Widget? labelText;
   final Color? hintColor;
-
+  final int? maxLines;
+  final int? minLines;
   @override
   Widget build(BuildContext context) {
     return Container(
       height: height,
       padding: padding,
       child: TextFormField(
+        minLines: minLines,
+        maxLines: maxLines,
         textAlign: TextAlign.right,
         decoration: InputDecoration(
           enabled: enabled ?? true,
@@ -51,10 +57,9 @@ class CustomTextFormField extends StatelessWidget {
           suffixIcon: suffixIcon,
           filled: true,
           fillColor: Colors.white,
-          contentPadding: const EdgeInsets.symmetric(
-            vertical: 0.0,
-            horizontal: 12.0,
-          ),
+          contentPadding: const EdgeInsets.only(
+              left: 12.0, right: 12.0, top: 4.0, bottom: 4.0),
+
           alignLabelWithHint: true,
           hintText: hintText,
           hintStyle: TextStyle(fontSize: 12.w, color: hintColor ?? Colors.grey),

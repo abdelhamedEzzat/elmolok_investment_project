@@ -248,4 +248,76 @@ class StringsManger {
   static const String teamCustomerServies = "فريق الدعم الفني";
 
   static const String createCustomerEmail = "انشاء ايميل للدعم الفني";
+
+  static const String mainUnitInformation = "بيانات الوحده الرئيسيه ";
+
+  static const String addManualHashtag = "اضف هاشتاج";
+
+  static const String mainNameOfunit = "اسم الوحدة الرئيسي";
+  static const String addMainNameOfunit = "اضف اسم الوحدة الرئيسي";
+
+  static const String keyInvestmentInformation = "معلومات الاستثمار الرئيسيه";
+
+  static const String propertyKeysInfo = " معلومات مفاتيح الملكية";
+
+  static const String addNewinvestmentKey = " اضف مفاتيح استثمار جديده";
+
+  static const String netAnnualizedReturn = "صافي العائد السنوي";
+  static const String totalExpectedReturn = "إجمالي العائد المتوقع";
+  static const String netExpectedReturn = "صافي العائد المتوقع";
+  static const String expectAnnualAppreciation = "توقع التقدير السنوي";
+  static const String rentalReturnFrequency = "تردد عودة الإيجار";
+
+  static const String moreUnitInformation = "المزيد من المعلومات";
+
+  static const String titleForMoreInformationForUnit =
+      "عنوان لمعلومات اكثر عن الوحده";
+
+  static const String subtitleForMoreInformationForUnit =
+      "  معلومات اكثر عن الوحده";
+
+  static const String whyYouShouldChooseThisUnit =
+      "لماذا يجب عليك الاستثمار في  هذه الوحده؟";
+
+  static const String subTitleForwhyYouShouldChooseThisUnit =
+      "اسباب لماذا يجب عليك الاستثمار في  هذه الوحده؟";
+
+  static const String resonsWhyYouShouldChooseThisUnit =
+      "اسباب لماذا يجب عليك الاستثمار في  هذه الوحده؟";
+
+  static const String transactionsDetails = "تفاصيل المعاملات";
+
+  static const String investmentAmount = "مبلغ الاستثمار";
+  static const String purchaseCost = "تكاليف الشراء";
+  static const String trnsactionsCosts = "تكاليف المعاملات ";
+  static const String totalAcquisitionCost = "إجمالي تكلفة الاستحواذ";
+  static const String numberOfShares = "عدد الأسهم";
+  static const String propertyPricePerShare = "سعر العقار لكل سهم ";
+  static const String transctionCostPerShare = " تكلفة الصفقة لكل سهم";
+  static const String totalPricePerShare = "السعر الإجمالي للسهم الواحد";
+
+  static const String rentalBreakdown = " تقسيم الإيجار";
+
+  static const String grossRentPerYear = "إجمالي الإيجار سنويا";
+  static const String serviceCharges = "صافي الإيجار";
+  static const String netRent = "صافي العائد";
+  static const String netYeild = "التكاليف";
+  static const String costs = "صافي دخل الإيجار";
+  static const String propertyInsorance = "التأمين على الممتلكات";
+  static const String propertyMangement = "التأمين على الممتلكات";
+  static const String netrentalYeild = "صافي الإيجار العائد";
+
+  static const String selectTheLocation = " حدد الموقع للوحده";
+
+  static const String developerInformation = " معلومات المطور";
+
+  static const String nameOfDeveloperComapny = " اسم الشركة المطورة";
+  static const String publish = "النشر";
+  static const String passportPic = " صورة جواز السفر";
+  static const String personalPic = "الصورة الشخصية";
+
+  static const String personalProfileInformation = " معلومات الملف الشخصي";
+
+  static const String accepted = " مقبول";
+  static const String refused = "  مرفض";
 }

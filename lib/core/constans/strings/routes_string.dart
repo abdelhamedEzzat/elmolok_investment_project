@@ -37,8 +37,22 @@ class ConstantsRouteString {
   static const String adminHomeScreen = "/AdminHomeScreen";
 
   static const String investorsAdminScreen = "/InvestorsAdminScreen";
-  static const String createCustomerServicesScreen =
+  static const String createCustomerServicesEmailScreen =
       "/CreateCustomerServicesScreen";
 
   static const String createUnit = "/CreateUnit";
+  static const String propertyKeysInfo = "/PropertyKeysInfo";
+  static const String expectedReturnedAdminScreen =
+      "/ExpectedReturnedAdminScreen";
+  static const String moreUnitInformation = "/MoreUnitInformation";
+
+  static const String financialTransactions = "/FinancialTransactions";
+  static const String investmentCalcolator = "/InvestmentCalcolator";
+  static const String unitLocationInformation = "/UnitLocationInformation";
+  static const String unitDevoleperInformation = "/UnitDevoleperInformation";
+  static const String updatesFromAdmin = "/UpdatesFromAdmin";
+  static const String sendNotificationFromAdmin = "/SendNotificationFromAdmin";
+  static const String updatesDetails = "/UpdatesDetails";
+  static const String verifyDetailsInfo = "/VerifyDetailsInfo";
+  static const String verifyInformation = "/VerifyInformation";
 }

@@ -16,6 +16,7 @@ import 'package:elmolak_investment_app/features/admin/admin_dash_board_screen/up
 import 'package:elmolak_investment_app/features/admin/admin_dash_board_screen/verify_information/verify_information_screen.dart';
 import 'package:elmolak_investment_app/features/admin/admin_dash_board_screen/verify_information/widget/verify_detatils_info.dart';
 import 'package:elmolak_investment_app/features/admin/admin_home_screen.dart';
+import 'package:elmolak_investment_app/features/splash_screen/splash_screen.dart';
 import 'package:elmolak_investment_app/features/users/chat/user_chat.dart';
 import 'package:elmolak_investment_app/features/customer_servises/chat_customer_services/chat_customer_services.dart';
 import 'package:elmolak_investment_app/features/customer_servises/custmer_home_screen.dart';
@@ -25,7 +26,6 @@ import 'package:elmolak_investment_app/features/users/dash_board/dash_board_aval
 import 'package:elmolak_investment_app/features/users/dash_board/dashboard_screen.dart';
 import 'package:elmolak_investment_app/features/intro_screens/intro_screens.dart';
 import 'package:elmolak_investment_app/features/users/details_Investment_unit/lived_investment_details_screen/lived_investment_details_screen.dart';
-import 'package:elmolak_investment_app/features/users/home/home_screen.dart';
 import 'package:elmolak_investment_app/features/users/personal_Profile/personal_profile.dart';
 import 'package:elmolak_investment_app/features/users/personal_Profile/select_embloyment_info/first_select_embloyment_info.dart';
 import 'package:elmolak_investment_app/features/users/personal_Profile/select_embloyment_info/secound_select_embloyment.dart';
@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: const HomeScreen(),
+          home: const SplashScreen(),
           // Define your home screen route here
           routes: {
             ConstantsRouteString.firstIntroScreen: (context) =>

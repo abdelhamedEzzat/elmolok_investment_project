@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "134376580649",
+    "project_id": "elmolak-investment",
+    "storage_bucket": "elmolak-investment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134376580649:android:2be1ed0beb619c06295e38",
+        "android_client_info": {
+          "package_name": "com.example.elmolak_investment_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU003T1SN2v7K0pKXA84eTGPCXhxAH9-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

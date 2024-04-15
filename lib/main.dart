@@ -39,11 +39,17 @@ import 'package:elmolak_investment_app/features/registration_screen/login_screen
 import 'package:elmolak_investment_app/features/registration_screen/sign_up_screen/signup_screen.dart';
 import 'package:elmolak_investment_app/features/user_information/terms_and_conditions/terms_and_conditions.dart';
 import 'package:elmolak_investment_app/features/user_information/verify_email/verify_email.dart';
+import 'package:elmolak_investment_app/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-void main() {
+void main() async {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
   runApp(DevicePreview(
       enabled: !kReleaseMode, builder: (context) => const MyApp()));
 }

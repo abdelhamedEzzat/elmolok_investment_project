@@ -55,4 +55,6 @@ class ConstantsRouteString {
   static const String updatesDetails = "/UpdatesDetails";
   static const String verifyDetailsInfo = "/VerifyDetailsInfo";
   static const String verifyInformation = "/VerifyInformation";
+
+  static const String homescreen = "/Homescreen";
 }

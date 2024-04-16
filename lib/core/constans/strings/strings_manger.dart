@@ -320,4 +320,15 @@ class StringsManger {
 
   static const String accepted = " مقبول";
   static const String refused = "  مرفض";
+
+  static const String feildRequierd = " هذا الحقل مطلوب";
+  static const String addLetterAndCharts = "بجب اضافه حروف وارقام ورموز";
+
+  static const String writeEmailThatYouHasLoginByIt =
+      "اكتب الايميل الذي قمت بتسجيل الدخول به";
+  static const String sentResetPasswordEmail =
+      "لقد تم ارسال ايمل الي ايميلك لاعاده تعين كلمه السر يرجي التحقق منه ";
+
+  static const String verifySendEmail = "تحقق من الايميل";
+  static const String ok = "حسنا";
 }

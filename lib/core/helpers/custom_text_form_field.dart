@@ -4,22 +4,24 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomTextFormField extends StatelessWidget {
-  const CustomTextFormField({
-    super.key,
-    required this.hintText,
-    this.padding,
-    this.height,
-    this.borderRadius,
-    this.suffixIcon,
-    this.normalBorderColor,
-    this.prefixIcon,
-    this.enabled,
-    this.border,
-    this.labelText,
-    this.hintColor,
-    this.maxLines,
-    this.minLines,
-  });
+  const CustomTextFormField(
+      {super.key,
+      required this.hintText,
+      this.padding,
+      this.height,
+      this.borderRadius,
+      this.suffixIcon,
+      this.normalBorderColor,
+      this.prefixIcon,
+      this.enabled,
+      this.border,
+      this.labelText,
+      this.hintColor,
+      this.maxLines,
+      this.minLines,
+      this.onChanged,
+      this.obscureText,
+      this.validator});
 
   final String hintText;
   final EdgeInsetsGeometry? padding;
@@ -34,12 +36,18 @@ class CustomTextFormField extends StatelessWidget {
   final Color? hintColor;
   final int? maxLines;
   final int? minLines;
+  final void Function(String)? onChanged;
+  final bool? obscureText;
+  final String? Function(String?)? validator;
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: height,
+      // height: height,
       padding: padding,
       child: TextFormField(
+        validator: validator,
+        obscureText: obscureText ?? false,
+        onChanged: onChanged,
         minLines: minLines,
         maxLines: maxLines,
         textAlign: TextAlign.right,

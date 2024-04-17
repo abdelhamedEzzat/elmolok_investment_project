@@ -36,4 +36,123 @@ class StringsManger {
   static const String continueWithApple = " انشاء الحساب بواسطه ابل";
   static const String didntHaveAccount = "اذا كنت لا تمتلك حساب بالفعل ؟";
   static const String login = "تسجيل الدخول";
+  static const String forgetPassword = "نسيت كلمة المرور ؟";
+  static const String startInvestingToday = "ابدأ الاستثمار اليوم";
+  static const String fewMinutesToInvesting =
+      "خلال دقائق , يمكنك البدء في تنمية ثروتك";
+  static const String firstName = "الاسم الاول";
+  static const String lastName = "الاسم الاخير";
+  static const String birthdate = "تاريخ الميلاد";
+
+  static const String phoneNumber = "رقم الهاتف";
+  static const String agreeForUserServies = " حسنا قرأتها واوفق عليها";
+  static const String userServies = " شروط الخدمة";
+  static const String selectYourCountry = "اختر بلدك";
+  static const String beforWeStart = "قبل أن نبدأ، نود أن نتعرف عليك بشكل أفضل";
+  static const String whereAreyouForm = "لنبدأ من أين أنت؟";
+  static const String welecome = "مرحبا بك";
+
+  static const String awesome = "رائع نحن نحب";
+  static const String cityAndAdressLocation = "اين تعيش بالتحديد؟";
+  static const String pleaseEnterYourAdress = "من فضلك ادخل عنوانك";
+  static const String pleaseEnterYourCity = "من فضلك ادخل مدينتك";
+  static const String sendVerifyMassage =
+      "لقد قمنا بأرسال رسالة التحقق على حسابك";
+  static const String pleaseVerifyYourAccount =
+      "من فضلك قم بالتحقق من البريد الالكتروني";
+  static const String verifyEmailAndPressNext =
+      "وقم بتاكيد الايميل ثم اضغط التالي ";
+  static const String ifVerifyMassageNotSend =
+      "اذا لم يتم ارسال الرساله الي الان يرجي الضغط علي ";
+  static const String resendVerifyMassage =
+      " اعاده ارسال رساله التحقق الي ايميلي";
+  static const String our = "جميع";
+  static const String termsAndConditions = " الشروط والأحكام لدينا ";
+  static const String readTermsandConditions = " قرأت    ";
+  static const String acceptedTermsandConditions =
+      "  واوافق علي جميع الشروط والأحكام ";
+  static const String hello = "مرحبا بك";
+  static const String nameOfUser = "ابراهيم";
+  static const String sortBy = "تصنيف حسب";
+  static const String live = "مباشرة";
+  static const String exited = "خرجت";
+  static const String funded = "ممولة";
+
+  static const String mainScreen = " الرئيسيه";
+  static const String dashboard = " لوحه التحكم";
+  static const String profile = "معلوماتي";
+  static const String personalprofile = "الملف الشخصي";
+  static const String customerServies = "الدعم";
+  static const String annualRentalyield = "عائد الإيجار السنوي";
+  static const String netRentalyield = "صافي عائد الإيجار";
+
+  static const String annualizedReturn = "العائد السنوي";
+  static const String totalExpectedRetutn = "إجمالي العائد المتوقع";
+  static const String fundedChart = "التمويل";
+  static const String unitPrice = "سعر الوحدة";
+
+  static const String propertyPurcgasePrice = " سعر شراء العقارات";
+  static const String investmentHoldingPeriod = "فترة عقد الاستثمار";
+  static const String totalRentalIncome = "إجمالي إيرادات الإيجار";
+  static const String exitPrice = "سعر الخروج";
+  static const String totalROL = "إجمالي العائد على الاستثمار";
+
+  static const String expectedGrossYield = " العائد الإجمالي المتوقع";
+  static const String expectedRentalYield = " العائد الإيجاري المتوقع";
+  static const String expctedReturn = " العائد المتوقع";
+  static const String purechaseDate = " تاريخ الشراء ";
+  static const String propretyPurechasePrice = " سعر شراء الملكية";
+  static const String currentMarketValue = " القيمة السوقية الحالية";
+  static const String rentalIncomePaidtodate =
+      "إيرادات الإيجار المدفوعة حتى الآن";
+  static const String totalPortfolioValue = "إجمالي قيمة المحفظة";
+
+  static const String thereAreNoRecoredsToShow = " لا يوجد سجلات لعرضها";
+
+  static const String totalRentalToDate = " إجمالي الإيجار حتى الآن";
+  static const String currentMonthRentalRecived =
+      " تم استلام إيجار الشهر الحالي";
+  static const String activeInvestment = " الاستثمارات النشطة";
+
+  static const String financialTransactions = "المعاملات المالية";
+
+  static const String financialNumber = "الرقم ";
+  static const String financialDate = "التاريخ ";
+  static const String financialAmount = " الكميه";
+  static const String transactionsStuts = "الحاله ";
+
+  static const String propertyUpdates = "تحديثات الملكية ";
+  static const String rentalReceived = "تلقى الإيجار ";
+  static const String rentalStatment = "بيان الإيجار ";
+  static const String noRentInSelectDateRange =
+      " لا يوجد إيجار في نطاق زمني محدد";
+  static const String yourAnnualInvestmentlimit =
+      "حد الاستثمار السنوي الخاص بك";
+  static const String investmentModeYTD = "وضع الاستثمار منذ بداية العام";
+  static const String primary = "أساسي";
+
+  static const String solid = "النفقات";
+  static const String propretyPrice = "سعر الوحده";
+  static const String proprety = "الوحده";
+  static const String availableInvestments = "استثماراتك المتاحة";
+
+  static const String inProgress = "في تَقَدم";
+  static const String ammountInvested = "المبلغ المستثمر";
+  static const String propertyPrice = "أسعار العقارات";
+
+  static const String solidDate = "التاريخ ";
+  static const String propertySolidPrice = "سعر الخدمه ";
+  static const String enableNotification = " تفعيل الاشعارات";
+  static const String logOut = " تسجيل الخروج ";
+  static const String delteProfile = " حذف الحساب ";
+
+  static const String yourCurrentAddress = "العنوان الحالي";
+  static const String city = " المدينة";
+  static const String country = "الدولة  ";
+  static const String pstalCode = "رقم البريد";
+
+  static const String employmentInformation = "معلومات التوظيف";
+  static const String whatsYourCurrentOccupation = " ما هي مهنتك الحالية";
+  static const String howLongHaveYoubeenWorkhere = "منذ متى وأنت تعمل هنا ";
+  static const String whatIndustryDoYouWorkIn = "أي صناعة تعمل بها ";
 }

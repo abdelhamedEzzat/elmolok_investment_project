@@ -2,6 +2,7 @@ import 'package:elmolak_investment_app/core/constans/image/images_manager.dart';
 import 'package:elmolak_investment_app/core/constans/strings/strings_manger.dart';
 import 'package:elmolak_investment_app/core/helpers/custom_text_form_field.dart';
 import 'package:elmolak_investment_app/core/strings/strings.dart';
+import 'package:elmolak_investment_app/features/registration_screen/login_screen/widget/forget_password.dart';
 import 'package:elmolak_investment_app/features/registration_screen/login_screen/widget/if_didnt_have_account.dart';
 import 'package:elmolak_investment_app/features/registration_screen/login_screen/widget/login_with_email.dart';
 import 'package:elmolak_investment_app/features/registration_screen/sign_up_screen/widget/sign_up_with_apple.dart';
@@ -20,7 +21,7 @@ class LoginBody extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.only(
-            top: 30.h,
+            top: 25.h,
             bottom: 25.h,
             right: 25.w,
           ),
@@ -45,17 +46,27 @@ class LoginBody extends StatelessWidget {
         SizedBox(
           height: 25.h,
         ),
-        const CustomTextFormField(
+        CustomTextFormField(
+          borderRadius: const BorderRadius.all(Radius.circular(4.0)),
+          height: 52.h,
+          padding: EdgeInsets.only(left: 25.w, right: 25.w),
           hintText: StringsManger.emailAddress,
         ),
         SizedBox(
           height: 10.h,
         ),
-        const CustomTextFormField(
+        CustomTextFormField(
+          borderRadius: const BorderRadius.all(Radius.circular(4.0)),
+          height: 52.h,
+          padding: EdgeInsets.only(left: 25.w, right: 25.w),
           hintText: StringsManger.password,
         ),
         SizedBox(
-          height: 20.h,
+          height: 10.h,
+        ),
+        const ForgetPassword(),
+        SizedBox(
+          height: 10.h,
         ),
         const LoginWithEmail(),
         SizedBox(

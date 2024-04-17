@@ -10,21 +10,31 @@ class BottonClick extends StatelessWidget {
       required this.alignment,
       required this.width,
       required this.onTap,
-      required this.text});
+      required this.text,
+      this.margin,
+      this.colorBotton,
+      this.borderRadius,
+      this.height});
   final double width;
   final void Function()? onTap;
   final AlignmentGeometry? alignment;
   final String text;
+  final EdgeInsetsGeometry? margin;
+  final Color? colorBotton;
+  final BorderRadiusGeometry? borderRadius;
+  final double? height;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
         onTap: onTap,
         child: Container(
           alignment: alignment,
-          margin: const EdgeInsets.only(right: 25, left: 25),
-          decoration: const BoxDecoration(color: ColorManger.buttonColor),
+          margin: margin,
+          decoration: BoxDecoration(
+              color: colorBotton ?? ColorManger.buttonColor,
+              borderRadius: borderRadius),
           width: width,
-          height: 50.h,
+          height: height ?? 43.h,
           child: Text(
             text,
             style: TextStyle(

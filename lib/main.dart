@@ -19,6 +19,7 @@ import 'package:elmolak_investment_app/features/admin/admin_home_screen.dart';
 import 'package:elmolak_investment_app/features/registration_screen/login_screen/controller/email_login/email_login_cubit.dart';
 import 'package:elmolak_investment_app/features/registration_screen/sign_up_screen/controller/email_sign_up_cubit/email_sign_up_cubit.dart';
 import 'package:elmolak_investment_app/features/registration_screen/sign_up_screen/controller/google-sign_up/cubit/google_sign_up_cubit.dart';
+import 'package:elmolak_investment_app/features/user_information/personal_details/controller/personal_details/personal_details_cubit.dart';
 import 'package:elmolak_investment_app/features/users/chat/user_chat.dart';
 import 'package:elmolak_investment_app/features/customer_servises/chat_customer_services/chat_customer_services.dart';
 import 'package:elmolak_investment_app/features/customer_servises/custmer_home_screen.dart';
@@ -80,6 +81,9 @@ class MyApp extends StatelessWidget {
             ),
             BlocProvider<EmailLoginCubit>(
               create: (context) => EmailLoginCubit(),
+            ),
+            BlocProvider<PersonalDetailsCubit>(
+              create: (context) => PersonalDetailsCubit(),
             ),
           ],
           child: MaterialApp(

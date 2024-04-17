@@ -16,7 +16,9 @@ class PersonalDetailsScreen extends StatefulWidget {
 }
 
 class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
-  @override
+  GlobalKey<FormState> formKey = GlobalKey<FormState>();
+
+  bool isChecked = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,7 +27,7 @@ class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
       body: SafeArea(
         child: Padding(
           padding:
-              EdgeInsets.only(top: 5, right: 25.w, left: 25.w, bottom: 25.h),
+              EdgeInsets.only(top: 5.h, right: 25.w, left: 25.w, bottom: 25.h),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             mainAxisAlignment: MainAxisAlignment.start,
@@ -43,9 +45,17 @@ class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
               //
               // TakePersonalDetailsScreen
               //
-              const Expanded(
+              Expanded(
                   child: SingleChildScrollView(
-                      child: TakePersonalDetailsScreen())),
+                      child: TakePersonalDetailsScreen(
+                onCheckedChanged: (value) {
+                  setState(() {
+                    isChecked = value;
+                  });
+                },
+                formKey: formKey,
+                isChecked: isChecked,
+              ))),
               //
 
               //
@@ -55,11 +65,18 @@ class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
                 alignment: Alignment.bottomCenter,
                 child: BottonClick(
                   margin: const EdgeInsets.only(left: 10, right: 10),
-                  colorBotton: ColorManger.buttonColor.withOpacity(0.2),
+                  colorBotton: isChecked == false
+                      ? ColorManger.buttonColor.withOpacity(0.2)
+                      : ColorManger.buttonColor,
                   borderRadius: BorderRadius.circular(5.w),
                   onTap: () {
-                    Navigator.of(context)
-                        .pushNamed(ConstantsRouteString.countryDetailsScreen);
+                    if (formKey.currentState != null &&
+                        formKey.currentState!.validate() &&
+                        isChecked == true) {
+                      formKey.currentState!.save();
+                      Navigator.of(context)
+                          .pushNamed(ConstantsRouteString.countryDetailsScreen);
+                    }
                   },
                   text: StringsManger.next,
                   alignment: Alignment.center,

@@ -331,4 +331,7 @@ class StringsManger {
 
   static const String verifySendEmail = "تحقق من الايميل";
   static const String ok = "حسنا";
+  static const String pleaseEnterLettersOnly = " الرجاء ادخال حروف فقط";
+  static const String pleaseEnternumbersAndunderscoresOnly =
+      " الرجاء ادخال ارقام ورموز فقط";
 }

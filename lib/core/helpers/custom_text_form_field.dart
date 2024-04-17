@@ -1,6 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:elmolak_investment_app/core/constans/colors/color_manger.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class CustomTextFormField extends StatelessWidget {
@@ -21,7 +22,9 @@ class CustomTextFormField extends StatelessWidget {
       this.minLines,
       this.onChanged,
       this.obscureText,
-      this.validator});
+      this.validator,
+      this.keyboardType,
+      this.inputFormatters});
 
   final String hintText;
   final EdgeInsetsGeometry? padding;
@@ -39,12 +42,17 @@ class CustomTextFormField extends StatelessWidget {
   final void Function(String)? onChanged;
   final bool? obscureText;
   final String? Function(String?)? validator;
+  final TextInputType? keyboardType;
+  final List<TextInputFormatter>? inputFormatters;
   @override
   Widget build(BuildContext context) {
     return Container(
       // height: height,
       padding: padding,
       child: TextFormField(
+        autovalidateMode: AutovalidateMode.always,
+        inputFormatters: inputFormatters,
+        keyboardType: keyboardType,
         validator: validator,
         obscureText: obscureText ?? false,
         onChanged: onChanged,
